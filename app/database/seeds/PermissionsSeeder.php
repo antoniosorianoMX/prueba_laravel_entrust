@@ -1,9 +1,9 @@
 <?php
-	class PermisionsSeeder extends Seeder {
+	class PermissionsSeeder extends Seeder {
  
-    public function run()
-    {
-        $ver_usuarios = new Permission();
+    public function run(){
+	
+    $ver_usuarios = new Permission();
     $ver_usuarios->name = 'ver_usuarios';
     $ver_usuarios->display_name = 'ver usuarios';
     $ver_usuarios->save();

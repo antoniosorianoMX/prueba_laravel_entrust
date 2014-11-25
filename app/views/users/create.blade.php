@@ -35,10 +35,6 @@
             {{ Form::select('rol', $roles, null, array('class' => 'form-control')) }}
         </div>
         <div class="form-group">
-            {{Form::label('email', 'Email');}}
-            {{ Form::email('email', null, array('class' => 'form-control')); }}
-        </div>
-        <div class="form-group">
             {{Form::label('password', 'Password');}}
             {{ Form::password('password', array('class' => 'form-control')) }}
         </div>

@@ -25,14 +25,14 @@
         @endif
         <table class="table table-hover">
             <thead>
-                <tr><th>Username</th><th>Rol</th><th>Email</th><th>Nombre</th><th>Apellido</th></tr>
+                <tr><th>Username</th><th>Rol</th><th>Nombre</th><th>Apellido</th></tr>
             </thead>
             @if(isset($users))
                 <tbody>
                 @foreach($users as $user)
                     <tr><td>{{ $user->username }}</td>
                         <td>{{ $user->rol->name }}</td>
-                        <td>{{ $user->email }}</td>
+
                         <td>{{ $user->first_name }}</td><td>{{ $user->last_name  }}</td>
                         @if(Entrust::can('editar_usuarios'))
                             <td>{{ Form::open(array('method' 

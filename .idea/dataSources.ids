@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - prueba_laravel_entrust@localhost" uuid="c415947e-ad1d-4708-8a4b-e75aa8f921e8">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="prueba_laravel_entrust"/>
+    <table name="assigned_puestos_deptos" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="depto_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="puesto_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="assigned_puestos_deptos_puesto_id_foreign" columns="puesto_id" ref-table="puestos" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="assigned_puestos_deptos_depto_id_foreign" columns="depto_id" ref-table="deptos" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="assigned_puestos_deptos_user_id_foreign" columns="user_id" ref-table="users" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="assigned_puestos_deptos_depto_id_foreign" unique="false" columns="depto_id"/>
+      <index name="assigned_puestos_deptos_puesto_id_foreign" unique="false" columns="puesto_id"/>
+      <index name="assigned_puestos_deptos_user_id_foreign" unique="false" columns="user_id"/>
+    </table>
+    <table name="assigned_roles" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="user_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="role_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="assigned_roles_role_id_foreign" columns="role_id" ref-table="roles" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="assigned_roles_user_id_foreign" columns="user_id" ref-table="users" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="assigned_roles_role_id_foreign" unique="false" columns="role_id"/>
+      <index name="assigned_roles_user_id_foreign" unique="false" columns="user_id"/>
+    </table>
+    <table name="deptos" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="created_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="updated_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="assigned_puestos_deptos_depto_id_foreign" table="assigned_puestos_deptos" schema="" catalog="prueba_laravel_entrust" columns="depto_id"/>
+      <index name="deptos_name_unique" unique="true" columns="name"/>
+    </table>
+    <table name="migrations" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="migration" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="batch" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+    </table>
+    <table name="permission_role" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="permission_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="role_id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="permission_role_permission_id_foreign" columns="permission_id" ref-table="permissions" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="permission_role_role_id_foreign" columns="role_id" ref-table="roles" ref-schema="" ref-catalog="prueba_laravel_entrust" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="permission_role_permission_id_foreign" unique="false" columns="permission_id"/>
+      <index name="permission_role_role_id_foreign" unique="false" columns="role_id"/>
+    </table>
+    <table name="permissions" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="display_name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="created_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="updated_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="permission_role_permission_id_foreign" table="permission_role" schema="" catalog="prueba_laravel_entrust" columns="permission_id"/>
+      <index name="permissions_name_unique" unique="true" columns="name"/>
+    </table>
+    <table name="puestos" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="created_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="updated_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="assigned_puestos_deptos_puesto_id_foreign" table="assigned_puestos_deptos" schema="" catalog="prueba_laravel_entrust" columns="puesto_id"/>
+      <index name="puestos_name_unique" unique="true" columns="name"/>
+    </table>
+    <table name="roles" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="created_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="updated_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="assigned_roles_role_id_foreign" table="assigned_roles" schema="" catalog="prueba_laravel_entrust" columns="role_id"/>
+      <exported-key name="permission_role_role_id_foreign" table="permission_role" schema="" catalog="prueba_laravel_entrust" columns="role_id"/>
+      <index name="roles_name_unique" unique="true" columns="name"/>
+    </table>
+    <table name="users" schema="" catalog="prueba_laravel_entrust" type="TABLE">
+      <column name="id" sqlType="INT UNSIGNED" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="username" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="first_name" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_name" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <column name="remember_token" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12"/>
+      <column name="created_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <column name="updated_at" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="JzAwMDAtMDAtMDAgMDA6MDA6MDAn"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="assigned_puestos_deptos_user_id_foreign" table="assigned_puestos_deptos" schema="" catalog="prueba_laravel_entrust" columns="user_id"/>
+      <exported-key name="assigned_roles_user_id_foreign" table="assigned_roles" schema="" catalog="prueba_laravel_entrust" columns="user_id"/>
+    </table>
+  </data-source>
+</component>

@@ -9,10 +9,10 @@ class AuthController extends \BaseController {
 	 */
 	public function login()
 	{
-		$email = Input::get('email');
+		$username = Input::get('user');
 		$password = Input::get('password');
 
-		if (Auth::attempt(['email' => $email, 'password' => $password]))
+		if (Auth::attempt(['username' => $username, 'password' => $password]))
         {
             return Redirect::to('home');
         }

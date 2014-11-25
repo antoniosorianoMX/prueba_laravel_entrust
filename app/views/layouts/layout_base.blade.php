@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{URL::to('/home')}}">My app</a>
+          <a class="navbar-brand" href="{{URL::to('/home')}}">El Ganzo</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav col-sm-8 col-md-8">
@@ -30,7 +30,17 @@
               @if(Entrust::can('ver_roles'))
               <li><a href="{{URL::to('roles')}}">Roles</a></li>
               @endif
-            <li class="pull-right"><a href="{{URL::to('logout')}}">Logout</a></li>           
+
+            <li class="dropdown pull-right">
+ 				<a aria-expanded="false" href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido, {{ Auth::user()->first_name; }} <span class="caret"></span></a>
+                   <ul class="dropdown-menu" role="menu">
+ 					<li><a href="{{URL::to('logout')}}">Logout</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li class="divider"></li>
+                   </ul>
+ 			</li>
+
+
           </ul>          
         </div><!-- /.nav-collapse -->
       </div><!-- /.container -->

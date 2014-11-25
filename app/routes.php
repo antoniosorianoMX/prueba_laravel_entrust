@@ -13,6 +13,10 @@
 
 Route::get('/', function()
 {
+    if (Auth::check()){
+        // Si está autenticado lo mandamos a la raíz donde estara el mensaje de bienvenida.
+        return Redirect::to('/home');
+    }
 	return View::make('login.login');
 });
 

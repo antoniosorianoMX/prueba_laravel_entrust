@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - prueba_laravel_entrust@localhost" uuid="c415947e-ad1d-4708-8a4b-e75aa8f921e8">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>prueba_laravel_entrust.*</schema-pattern>
+      <default-schemas>prueba_laravel_entrust.*</default-schemas>
+    </data-source>
+  </component>
+</project>
+

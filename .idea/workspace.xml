@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bce9f0da-c3fe-48f0-b5d9-608cf073c44c" name="Default" comment="" />
+    <ignored path="laravel-entrust.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_TOOLBAR" value="true" />
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - prueba_laravel_entrust@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="prueba_laravel_entrust" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="laravel-entrust" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="2014_10_12_150706_entrust_setup_tables.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_12_150706_entrust_setup_tables.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-36.423077" vertical-offset="243" max-vertical-offset="1360">
+              <caret line="71" column="36" selection-start-line="57" selection-start-column="5" selection-end-line="71" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_11_25_003655_deptopuesto_setup_tables.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_11_25_003655_deptopuesto_setup_tables.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="255" max-vertical-offset="1241">
+              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/c415947e-ad1d-4708-8a4b-e75aa8f921e8.schema:prueba_laravel_entrust" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/c415947e-ad1d-4708-8a4b-e75aa8f921e8.schema:prueba_laravel_entrust">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>c415947e-ad1d-4708-8a4b-e75aa8f921e8.schema:prueba_laravel_entrust</OriginalElement>
+              <nodes>
+                <node x="448.0" y="0.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users</node>
+                <node x="906.4375" y="277.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role</node>
+                <node x="641.9375" y="277.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles</node>
+                <node x="0.0" y="435.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</node>
+                <node x="752.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles</node>
+                <node x="224.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.deptos</node>
+                <node x="0.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.puestos</node>
+                <node x="976.0" y="34.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permissions</node>
+                <node x="224.0" y="266.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles">
+                  <point x="-46.0" y="-50.5" />
+                  <point x="952.4375" y="241.0" />
+                  <point x="905.0" y="241.0" />
+                  <point x="51.0" y="62.0" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permissions">
+                  <point x="46.0" y="-50.5" />
+                  <point x="1044.4375" y="241.0" />
+                  <point x="1088.0" y="241.0" />
+                  <point x="0.0" y="73.5" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles">
+                  <point x="46.0" y="-50.5" />
+                  <point x="779.9375" y="241.0" />
+                  <point x="803.0" y="241.0" />
+                  <point x="-51.0" y="62.0" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.puestos">
+                  <point x="-68.0" y="-62.0" />
+                  <point x="258.0" y="241.0" />
+                  <point x="102.0" y="241.0" />
+                  <point x="0.0" y="62.0" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users">
+                  <point x="-46.0" y="-50.5" />
+                  <point x="687.9375" y="241.0" />
+                  <point x="661.0" y="241.0" />
+                  <point x="71.0" y="108.0" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users">
+                  <point x="68.0" y="-62.0" />
+                  <point x="394.0" y="241.0" />
+                  <point x="519.0" y="241.0" />
+                  <point x="-71.0" y="108.0" />
+                </edge>
+                <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.deptos">
+                  <point x="0.0" y="-62.0" />
+                  <point x="0.0" y="62.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8409638554216867" x="820.0" y="206.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Columns</Category>
+                <Category>Key columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RolesPermission.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/RolesPermission.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Role.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/PermissionsSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/UserSeeder.php" />
+        <option value="$PROJECT_DIR$/app/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/layout_base.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/users.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/User.php" />
+        <option value="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/app/views/login/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_10_12_150706_entrust_setup_tables.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_11_25_003655_deptopuesto_setup_tables.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1448" />
+    <option name="height" value="856" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prueba_laravel_entrust" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elganzo-laravel" />
+    <property name="options.lastSelected" value="vcs" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="body&#9;FILE&#9;file://C:/wamp/www/prueba_laravel_entrust/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bce9f0da-c3fe-48f0-b5d9-608cf073c44c" name="Default" comment="" />
+      <created>1415726793269</created>
+      <option name="number" value="Default" />
+      <updated>1415726793269</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1448" height="856" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3188623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="544">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/layout_base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="527">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="714">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="2584">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1734">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="629">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="714">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/multi-select.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072649576" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.066951565" vertical-offset="684" max-vertical-offset="14212">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15088758" vertical-offset="0" max-vertical-offset="676">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/role/role.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="51" max-vertical-offset="1479">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2420886" vertical-offset="119" max-vertical-offset="1734">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="676">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18343195" vertical-offset="12" max-vertical-offset="714">
+          <caret line="8" column="7" selection-start-line="7" selection-start-column="23" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.923077" vertical-offset="563" max-vertical-offset="2584">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385" vertical-offset="51" max-vertical-offset="1105">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.0384617" vertical-offset="174" max-vertical-offset="850">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="658">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10225564" vertical-offset="0" max-vertical-offset="665">
+          <caret line="4" column="282" selection-start-line="4" selection-start-column="282" selection-end-line="4" selection-end-column="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4977443" vertical-offset="996" max-vertical-offset="7616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="650" max-vertical-offset="6307">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95156693" vertical-offset="80" max-vertical-offset="1360">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="665">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14804064" vertical-offset="0" max-vertical-offset="105587">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/PermisosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1122">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/RolesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1870">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.384615" vertical-offset="105" max-vertical-offset="2312">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/login/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/layout_base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.846154" vertical-offset="245" max-vertical-offset="935">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c415947e-ad1d-4708-8a4b-e75aa8f921e8">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c415947e-ad1d-4708-8a4b-e75aa8f921e8</OriginalElement>
+          <nodes>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users</node>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role</node>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles</node>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</node>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles</node>
+            <node x="" y="">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permissions</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="388.0" y="260.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/6e26f70a/c415947e-ad1d-4708-8a4b-e75aa8f921e8/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39497042" vertical-offset="668" max-vertical-offset="2210">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-9.0" y="-47.0" />
+          <SelectedNodes>
+            <node>c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="680">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/6e26f70a/c415947e-ad1d-4708-8a4b-e75aa8f921e8/prueba_laravel_entrust..permissions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/UserSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44325152" vertical-offset="0" max-vertical-offset="652">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/RolesSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31288344" vertical-offset="0" max-vertical-offset="652">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/PermissionsSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.862254" vertical-offset="232" max-vertical-offset="884">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/RolesPermission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_12_145910_Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2785235" vertical-offset="38" max-vertical-offset="714">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_10_12_150706_entrust_setup_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.423077" vertical-offset="243" max-vertical-offset="1360">
+          <caret line="71" column="36" selection-start-line="57" selection-start-column="5" selection-end-line="71" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_11_25_003655_deptopuesto_setup_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="255" max-vertical-offset="1241">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c415947e-ad1d-4708-8a4b-e75aa8f921e8.schema:prueba_laravel_entrust">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c415947e-ad1d-4708-8a4b-e75aa8f921e8.schema:prueba_laravel_entrust</OriginalElement>
+          <nodes>
+            <node x="448.0" y="0.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users</node>
+            <node x="906.4375" y="277.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role</node>
+            <node x="641.9375" y="277.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles</node>
+            <node x="0.0" y="435.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.migrations</node>
+            <node x="752.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles</node>
+            <node x="224.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.deptos</node>
+            <node x="0.0" y="46.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.puestos</node>
+            <node x="976.0" y="34.5">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permissions</node>
+            <node x="224.0" y="266.0">c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles">
+              <point x="-46.0" y="-50.5" />
+              <point x="952.4375" y="241.0" />
+              <point x="905.0" y="241.0" />
+              <point x="51.0" y="62.0" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permission_role" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.permissions">
+              <point x="46.0" y="-50.5" />
+              <point x="1044.4375" y="241.0" />
+              <point x="1088.0" y="241.0" />
+              <point x="0.0" y="73.5" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.roles">
+              <point x="46.0" y="-50.5" />
+              <point x="779.9375" y="241.0" />
+              <point x="803.0" y="241.0" />
+              <point x="-51.0" y="62.0" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.puestos">
+              <point x="-68.0" y="-62.0" />
+              <point x="258.0" y="241.0" />
+              <point x="102.0" y="241.0" />
+              <point x="0.0" y="62.0" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_roles" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users">
+              <point x="-46.0" y="-50.5" />
+              <point x="687.9375" y="241.0" />
+              <point x="661.0" y="241.0" />
+              <point x="71.0" y="108.0" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.users">
+              <point x="68.0" y="-62.0" />
+              <point x="394.0" y="241.0" />
+              <point x="519.0" y="241.0" />
+              <point x="-71.0" y="108.0" />
+            </edge>
+            <edge source="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.assigned_puestos_deptos" target="c415947e-ad1d-4708-8a4b-e75aa8f921e8.table:prueba_laravel_entrust.deptos">
+              <point x="0.0" y="-62.0" />
+              <point x="0.0" y="62.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8409638554216867" x="820.0" y="206.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
